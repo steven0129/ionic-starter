@@ -13,7 +13,12 @@
       <button ion-button [round]="isRound" full>Default</button>
     </ion-col>
     <ion-col>
-      <alert-btn text="xxxx" (click)="this.show('testing')"></alert-btn>
+      <alert-btn text="xxxx" (click)="this.show(testing')"></alert-btn>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <button ion-button (click)="this.page()" full>Go to another page</button>
     </ion-col>
   </ion-row>
 </ion-content>
