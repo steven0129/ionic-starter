@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-row>
+    <ion-col>
+      <button ion-button (click)="onClick($event)" full>Default</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button [round]="isRound" full>Default</button>
+    </ion-col>
+    <ion-col>
+      <alert-btn text="xxxx" (click)="this.show('testing')"></alert-btn>
+    </ion-col>
+  </ion-row>
+</ion-content>
